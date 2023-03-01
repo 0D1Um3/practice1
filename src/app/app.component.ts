@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import {Goods} from '../goods';
 @Component({
-  selector: 'app-root',
+  selector: 'app-goods',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'practice';
+export class Goodsbk implements OnInit{
+goods:Goods[]=[];
 }
+
